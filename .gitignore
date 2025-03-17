@@ -59,4 +59,30 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+<<<<<<< HEAD
 >>>>>>> 0320e3e (Initial commit)
+=======
+
+# Ignore build directory
+build/
+
+# Ignore binaries and output files
+bin/
+*.elf
+*.uf2
+*.hex
+*.bin
+
+# Ignore CMake cache and generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore local environment files
+.env
+>>>>>>> 8c1477f (Update .gitignore)
