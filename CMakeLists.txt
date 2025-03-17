@@ -61,4 +61,4 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     ${PICO_SDK_PATH}/src/rp2_common/hardware_i2c/include
     ${PICO_SDK_PATH}/src/common/pico_time/include
     ${PICO_SDK_PATH}/src/rp2_common/hardware_timer/include
-) 
+)
